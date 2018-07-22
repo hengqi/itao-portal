@@ -1,5 +1,7 @@
 .idea/
 itao-portal-service/target/
+itao-portal-service/*.iml
 itao-portal-web/target/
+itao-portal-web/*.iml
 itao-portal.iml
 

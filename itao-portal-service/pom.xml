@@ -15,7 +15,7 @@
 
         <dependency>
             <groupId>com.chenhl</groupId>
-            <artifactId>itao-rests-api</artifactId>
+            <artifactId>itao-integration-shard</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!-- Spring -->

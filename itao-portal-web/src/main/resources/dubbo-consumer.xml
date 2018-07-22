@@ -13,8 +13,7 @@
 
     <dubbo:provider timeout="5000"/>
 
-    <dubbo:reference id="helloService" interface="com.itao.rests.api.HelloService" version="1.0.0"/>
+    <dubbo:reference id="helloService" interface="com.itao.integration.shard.HelloServie" version="1.0.0"/>
 
-    <bean id="helloTestService" class="com.itao.portal.service.HelloTestServiceImpl"/>
 
 </beans>
