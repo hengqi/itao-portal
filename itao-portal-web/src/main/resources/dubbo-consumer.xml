@@ -13,7 +13,9 @@
 
     <dubbo:provider timeout="5000"/>
 
-    <dubbo:reference id="helloService" interface="com.itao.integration.shard.HelloServie" version="1.0.0"/>
+    <!--<dubbo:reference id="helloService" interface="com.itao.integration.shard.HelloServie" version="1.0.0"/>-->
 
+    <!-- 首页内容分类 -->
+    <dubbo:reference id="contentAPI" interface="com.itao.integration.shard.content.ContentAPI" version="1.0.0"/>
 
 </beans>
