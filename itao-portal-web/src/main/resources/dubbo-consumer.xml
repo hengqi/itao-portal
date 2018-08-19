@@ -18,4 +18,10 @@
     <!-- 首页内容分类 -->
     <dubbo:reference id="contentAPI" interface="com.itao.integration.shard.content.ContentAPI" version="1.0.0"/>
 
+    <!-- 搜索服务 -->
+    <dubbo:reference id="solrSearchAPI" interface="com.itao.search.shard.SolrSearchAPI" version="1.0.0"/>
+
+    <!-- 商品服务 -->
+    <dubbo:reference id="itemAPI" interface="com.itao.integration.shard.item.ItemAPI" version="1.0.0"/>
+
 </beans>

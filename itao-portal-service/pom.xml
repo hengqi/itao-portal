@@ -12,12 +12,21 @@
     <artifactId>itao-portal-service</artifactId>
 
     <dependencies>
-
+        <!-- redis服务api -->
         <dependency>
             <groupId>com.chenhl</groupId>
             <artifactId>itao-integration-shard</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <!-- solr服务api -->
+        <dependency>
+            <groupId>com.chenhl</groupId>
+            <artifactId>itao-search-shard</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+
         <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>
