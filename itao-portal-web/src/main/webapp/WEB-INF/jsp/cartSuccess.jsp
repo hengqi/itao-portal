@@ -29,7 +29,7 @@
 								<b class="succ-icon"></b>
 								<h3 class="ftx-02">商品已成功加入购物车！</h3>
 							</div>
-							<div class="p-item">
+							<%--<div class="p-item">
 								<div class="p-img">
 									<a href="http://item.jd.com/1208740.html" target="_blank"><img
 										src="./商品已成功加入购物车_files/56f2064dNcca2e5b6.jpg"
@@ -47,7 +47,7 @@
 									</div>
 								</div>
 								<div class="clr"></div>
-							</div>
+							</div>--%>
 						</div>
 						<div class="success-btns">
 							<div class="success-ad">

@@ -17,4 +17,13 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
+    <!-- 拦截器配置 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!-- 拦截订单类请求 -->
+            <!--<mvc:mapping path="/order/**"/>-->
+            <mvc:mapping path="/item/**"/>
+            <bean class="com.itao.portal.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>
